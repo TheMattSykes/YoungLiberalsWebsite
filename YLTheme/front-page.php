@@ -1,52 +1,26 @@
-<!doctype HTML>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Young Liberals Sheffield</title>
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/main.css">
-  </head>
-  
-  <body>
-    
-    <header>
-      <div id="logoWrapper" onclick="location.href='./index.html';">
-        <img id="icon" src="./images/YLIcon100.png" alt="YL Icon" size="70">
-        <h1 id="titleLogo">Young Liberals</h1>
-        <!--<img id="mainLogo" src="./images/mainLogo.jpg" alt="Sheffield Young Liberals Logo">-->
-      </div>
-      
-      <a id="navIcon" class="menuItem" onclick="navMenu()">&#9776;</a>
-      
-      <nav id="mainNav" class="navClosed">
-        <ul id="menuList">
-          <li><a href="./index.html" class="menuItem">Home</a></li>
-          <li><a href="" class="menuItem">News</a></li>
-          <li><a href="" class="menuItem">Events</a></li>
-          <li><a href="" class="menuItem">About</a></li>
-          <li><a href="" class="menuItem">Committee</a></li>
-          <li><a href="" class="menuItem">Contact Us</a></li>
-        </ul>
-      </nav>
-    </header>
+<?php 
+
+wp_head();
+get_header(); 
+
+?>  
 
     <section>
-      <img id="mainImage" src="./images/testImage.jpg" alt="Example Image">
+      <img id="mainImage" src="http://young-liberals-sheffield.local/wp-content/themes/YLTheme/images/testImage.jpg" alt="Example Image">
     </section>
-    
+
     <main>
+        
+      <!-- <?php get_sidebar(); ?> -->
+        
       <h1>Welcome to Sheffield Young Liberals</h1>
       <h2>Default Header</h2>
       <p>The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield. The Sheffield Young Liberals is a society based at The University of Sheffield.</p>
     </main>
-    
-    <footer>
-      <a id="copyright">Designed by Matt Sykes - &copy; Sheffield Young Liberals 2018</a>
-      <div class="footerWrapper">
-        <a class="footerLinks">Accessibility</a>
-      </div>
-    </footer>
-    
-    <script src="./scripts/navMenu.js"></script>
-  </body>
-</html>
+
+<?php 
+
+get_footer(); 
+wp_footer();
+
+?>

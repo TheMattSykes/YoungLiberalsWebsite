@@ -27,9 +27,10 @@ main {
 
 footer {
   margin 0;
-  padding: 20px;
+  padding: 10px;
   color: white;
   background-color: rgba(21,23,33,1);
+  text-align: center;
 }
 
 #copyright {
@@ -39,10 +40,9 @@ footer {
 }
 
 .footerWrapper {
-  position: absolute;
   margin: 0;
   right: 0px;
-  padding-right: 20px;
+  padding: 5px;
 }
 
 .footerLinks {
