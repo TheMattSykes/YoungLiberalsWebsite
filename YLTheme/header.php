@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Young Liberals Sheffield</title>
+    <title>Sheffield Young Liberals</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   
   <body>
@@ -27,3 +28,5 @@
         ); ?>
       </nav>
     </header>
+    
+    <a id="build">DEV BUILD 0003</a>

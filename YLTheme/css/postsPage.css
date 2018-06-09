@@ -1,0 +1,82 @@
+li {
+  border: none;
+}
+
+
+.pageTitle {
+  text-align: center;
+  font-weight: bold;
+}
+
+.articlesDisplay {
+  width: 100%;
+  display: inline-block;
+}
+
+.articleWrapper {
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom: rgb(200,200,200) 1px solid;
+}
+
+.pageArticle {
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  width: 80%;
+}
+
+.articleThumbnail {
+  display: inline-block;
+  vertical-align: top;
+  width: 170px;
+  padding-top: 20px;
+}
+
+
+/* Header Section */
+.articleHeader {
+  
+}
+
+.post-title {
+  font-size: 18pt;
+  color: rgba(21,23,33,1);
+  text-decoration: none;
+}
+
+.post-title h3 {
+  font-weight: bold;
+}
+
+.post-title:hover {
+  color: rgba(255,159,26,1);
+  cursor: pointer;
+}
+
+/* Main Section */
+.post-excerpt {
+  padding: 10px 0 10px 0;
+}
+
+.time, .breaker, .post-author {
+  display: inline-block;
+}
+
+
+.read-more { 
+  text-decoration: none;
+  padding: 5px;
+  background-color: rgba(21,23,33,1);
+  color: white;
+}
+
+.read-more:hover {
+  cursor: pointer;
+  color: rgba(255,159,26,1);
+}
+
+
+.articleFooter {
+  padding-top: 10px;
+}

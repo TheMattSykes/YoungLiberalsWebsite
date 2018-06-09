@@ -8,18 +8,37 @@ Text Domain: YLTheme
 (C) Young Liberals Sheffield 2018
 */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-body {
+body, h1, h2, h3, a, p {
   font-family: "Open Sans";
   font-weight: normal;
   margin: 0;
   padding: 0;
 }
 
+h1, h2, h3, a, p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* FOR DEVELOPMENT BUILDS ONLY */
+#build {
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: white;
+  background-color: blue;
+  padding: 4px;
+  z-index: 1;
+  font-size: 10pt;
+  cursor: help;
+}
+/* -------------------------- */
+
 /* Page Content */
 section {
-  padding-top: 47px;
+  padding-top: 70px;
   width: 100%;
 }
 
@@ -35,9 +54,15 @@ main {
   position: relative;
 }
 
+#postsPageMain {
+  padding-top: 85px;
+  padding-bottom: 15px;
+}
+
 
 footer {
   margin: 0;
+  margin-top: 10px;
   padding: 10px;
   color: white;
   background-color: rgba(21,23,33,1);
@@ -70,7 +95,13 @@ footer {
 
 
 
-/* General Header Styling */
+/* 
+
+
+General Header Styling 
+
+
+*/
 header {
   width: 100%;
   height: 70px;
@@ -107,9 +138,8 @@ li {
 
 #logoWrapper {
   display: inline-block;
-  padding: 10px;
   padding-left: 20px;
-  padding-right: 20px;
+  position: relative;
   vertical-align: middle;
   cursor: pointer;
 }
@@ -133,14 +163,14 @@ li {
 
   nav {
     display: inline-block;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
   }
 
   .current-menu-item, .menu-item {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 25px;
-	padding-bottom: 23px;
+	padding-bottom: 22px;
   }
 
   *.current-menu-item:hover, *.menu-item:hover {
@@ -160,7 +190,6 @@ li {
     text-align: center;
     background-color: rgba(21,23,33,0.9);
     padding: 5px;
-    /*display: none;*/
   }
   
   ul {

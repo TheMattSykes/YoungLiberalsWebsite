@@ -4,8 +4,10 @@ function yl_enqueue() {
     
     // Styles
     wp_register_style( 'yl_theme' , get_template_directory_uri() . '/style.css');
+    wp_register_style( 'yl_posts' , get_template_directory_uri() . '/css/postsPage.css');
     
     wp_enqueue_style( 'yl_theme' );
+    wp_enqueue_style( 'yl_posts' );
     
     // Scripts
     // Do not override Wordpress versions of jQuery
