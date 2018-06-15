@@ -1,8 +1,3 @@
-li {
-  border: none;
-}
-
-
 .pageTitle {
   text-align: center;
   font-weight: bold;
@@ -36,7 +31,7 @@ li {
 
 /* Header Section */
 .articleHeader {
-  
+
 }
 
 .post-title {
@@ -57,6 +52,7 @@ li {
 /* Main Section */
 .post-excerpt {
   padding: 10px 0 10px 0;
+  overflow-wrap: break-word;
 }
 
 .time, .breaker, .post-author {
@@ -64,7 +60,7 @@ li {
 }
 
 
-.read-more { 
+.read-more {
   text-decoration: none;
   padding: 5px;
   background-color: rgba(21,23,33,1);

@@ -34,31 +34,12 @@ h1, h2, h3, a, p {
   font-size: 10pt;
   cursor: help;
 }
-/* -------------------------- */
-
-/* Page Content */
-section {
-  padding-top: 70px;
-  width: 100%;
-}
-
-#mainImage {
-  margin: 0;
-  width: 100%;
-  height: auto;
-}
 
 main {
   padding-left: 30px;
   padding-right: 30px;
   position: relative;
 }
-
-#postsPageMain {
-  padding-top: 85px;
-  padding-bottom: 15px;
-}
-
 
 footer {
   margin: 0;
@@ -82,6 +63,7 @@ footer {
 }
 
 .footerLinks {
+  padding: 10px;
   color: rgba(255,159,26,1);
 }
 
@@ -95,10 +77,10 @@ footer {
 
 
 
-/* 
+/*
 
 
-General Header Styling 
+General Header Styling
 
 
 */
@@ -130,22 +112,23 @@ li {
 }
 
 #icon {
-  height: 50px;
-  width: 50px;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  width: 300px;
   display: inline-block;
-  vertical-align: middle;
 }
 
 #logoWrapper {
   display: inline-block;
   padding-left: 20px;
-  position: relative;
-  vertical-align: middle;
   cursor: pointer;
+  vertical-align: top;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #titleLogo {
-  vertical-align: middle;
   display: inline-block;
   margin: 0;
 }
@@ -170,13 +153,15 @@ li {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 25px;
-	padding-bottom: 22px;
+	  padding-bottom: 22px;
+    -webkit-transition: background-color 0.2s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 0.2s;
   }
 
   *.current-menu-item:hover, *.menu-item:hover {
     background-color: rgba(255,159,26,1);
   }
-  
+
   #navIcon {
     display: none;
   }
@@ -191,18 +176,25 @@ li {
     background-color: rgba(21,23,33,0.9);
     padding: 5px;
   }
-  
+
   ul {
     padding: 0;
   }
-  
+
   li {
     display: block;
-    padding: 5px;
-    border-bottom: rgb(85,85,85) 1px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 100%;
+    border-bottom: rgba(55,55,55,0.9) solid 1px;
   }
-  
+
+  li a {
+    font-size: 15pt;
+    width: 100%;
+    padding
+  }
+
   #navIcon {
     font-size: 23pt;
     cursor: pointer;
@@ -211,16 +203,43 @@ li {
     position: absolute;
     right: 15px;
   }
-  
+
   #navIcon:hover, #navIcon:hover {
     background-color: rgba(255,159,26,1);
   }
-  
+
   .navClosed {
     display: none;
   }
-  
+
   .navOpen {
     display: block;
+  }
+}
+
+/* Very Small Displays */
+@media screen and (max-width: 380px){
+  /* Bug Fix */
+  nav {
+    margin-top: 60px;
+  }
+
+  #icon {
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    width: 300px;
+    display: inline-block;
+    clip: rect(0px,60px,60px,0px);
+    position: absolute;
+  }
+
+  #logoWrapper {
+    display: inline-block;
+    padding-left: 20px;
+    cursor: pointer;
+    vertical-align: top;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
