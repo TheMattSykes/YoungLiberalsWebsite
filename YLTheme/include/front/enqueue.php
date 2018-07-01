@@ -6,10 +6,13 @@ function yl_enqueue() {
     wp_register_style( 'yl_theme' , get_template_directory_uri() . '/style.css');
     wp_register_style( 'yl_posts' , get_template_directory_uri() . '/css/postsPage.css');
     wp_register_style( 'yl_front' , get_template_directory_uri() . '/css/front-page.css');
+    wp_register_style( 'yl_pages' , get_template_directory_uri() . '/css/pages.css');
+
 
     wp_enqueue_style( 'yl_theme' );
     wp_enqueue_style( 'yl_posts' );
     wp_enqueue_style( 'yl_front' );
+    wp_enqueue_style( 'yl_pages' );
 
     // Scripts
     // Do not override Wordpress versions of jQuery

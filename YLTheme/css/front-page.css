@@ -110,6 +110,16 @@ main {
   display: inline-block;
 }
 
+
+
+#desc {
+  text-align: center;
+  font-size: 12pt;
+  padding-bottom: 40px;
+}
+
+
+
 /* Very Small Displays */
 @media screen and (max-width: 400px){
   .blockIcon {
