@@ -5,7 +5,7 @@ get_header();
 
 ?>
     <section>
-      <img id="mainImage" src="http://young-liberals-sheffield.local/wp-content/themes/YLTheme/images/testImage.jpg" alt="Example Image">
+      <img id="mainImage" src="http://young-liberals-sheffield.local/wp-content/themes/YLTheme/images/mainImage.png" alt="Example Image">
     </section>
 
     <main>
