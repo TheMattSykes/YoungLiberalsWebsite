@@ -37,31 +37,28 @@ get_header();
 
       <!-- Block Link Icons -->
       <div id="blocks">
-        <a href="" class="blockLink">
+        <a href="https://su.sheffield.ac.uk/groups/sheffield-young-liberals/join" class="blockLink">
           <div class="blockIcon">
             <img class="blockImg" id="block1" src="http://young-liberals-sheffield.local/wp-content/themes/YLTheme/images/block1.png">
-            <div class="centered">Learn More &#9658;</div>
+            <!--<div class="centered">Learn More &#9658;</div>-->
             <h2>Join us</h2>
           </div></a>
 
         <a href="" class="blockLink">
           <div class="blockIcon">
             <img class="blockImg" id="block2" src="http://young-liberals-sheffield.local/wp-content/themes/YLTheme/images/block2.png">
-            <div class="centered">Learn More &#9658;</div>
             <h2>Events</h2>
           </div></a>
 
         <a href="" class="blockLink">
           <div class="blockIcon">
             <img class="blockImg" id="block3" src="http://young-liberals-sheffield.local/wp-content/themes/YLTheme/images/block3.png">
-            <div class="centered">Learn More &#9658;</div>
             <h2>News</h2>
           </div></a>
 
         <a href="" class="blockLink">
           <div class="blockIcon">
             <img class="blockImg" id="block4" src="http://young-liberals-sheffield.local/wp-content/themes/YLTheme/images/block4.png">
-            <div class="centered">Learn More &#9658;</div>
             <h2>About us</h2>
           </div></a>
       </div>

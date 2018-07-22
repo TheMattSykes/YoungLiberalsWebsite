@@ -29,4 +29,5 @@
       </nav>
     </header>
 
-    <a id="build">DEV BUILD 0006</a>
+    <!-- Build Number last changed on: 01/07/2018 -->
+    <a id="build">DEV BUILD 0007</a>
