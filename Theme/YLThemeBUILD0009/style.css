@@ -1,0 +1,85 @@
+/*
+Theme Name: YLTheme Theme
+Description: 2018 Theme for Young Liberals Sheffield Website
+Version: 1.0
+Author: Matthew Sykes
+Text Domain: YLTheme
+
+(C) Young Liberals Sheffield 2018
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body, h1, h2, h3, a, p {
+  font-family: "Open Sans";
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, a, p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* FOR DEVELOPMENT BUILDS ONLY */
+#build {
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: white;
+  background-color: blue;
+  padding: 4px;
+  z-index: 1;
+  font-size: 10pt;
+  cursor: help;
+}
+
+main {
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+}
+
+/*
+  WP Content
+*/
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
